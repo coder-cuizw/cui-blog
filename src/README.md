@@ -2,12 +2,14 @@
 home: true
 layout: BlogHome
 icon: home
-title: Code Cui
+title: Coder Cui
 heroImage: /logo.svg
 heroText: Coder Cui
 heroFullScreen: true
+bgImage: /assets/images/bg.gif
 tagline: Wild Coder's Growth Diary
-projects:
+
+[//]: # (projects:)
   - icon: project
     name: 项目名称
     desc: 项目详细描述
@@ -38,5 +40,7 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: Made by Code Cui
+
+footer: Wild Coder's Growth Diary
+copyright: MIT Licensed | Copyright © 2020-present <a href="https://github.com/coder-cuizw">Mr.Cui</a>
 ---
