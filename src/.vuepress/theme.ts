@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "coder-cuizw",
 
   docsDir: "docs",
 
@@ -64,6 +64,15 @@ export default hopeTheme({
     comment: {
       provider: "Giscus",
     },
+
+    // 复制代码
+    copyCode: {
+      selector: 'div[class*="language-"] pre',
+    },
+
+    // 搜索
+    // https://vuepress-theme-hope.github.io/zh/plugins/search.html
+
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
